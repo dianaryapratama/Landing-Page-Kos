@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+/* Mendefinisikan custom colors untuk tema kos-kosan */
+@theme {
+  --color-primary: #1e293b;   /* Slate 800 - Biru Navy gelap */
+  --color-secondary: #f8fafc; /* Slate 50 - Putih/Abu sangat muda */
+}
+
+/* Base styling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-secondary);
+}
