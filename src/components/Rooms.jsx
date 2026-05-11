@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Check } from 'lucide-react';
+import fotoPremium from '../assets/kost.webp';
 
 const Rooms = () => {
   const rooms = [
@@ -17,9 +18,9 @@ const Rooms = () => {
       name: 'Premium Room',
       price: 'Rp 1.200.000',
       period: '/ bulan',
-      image: 'https://images.unsplash.com/photo-1522771731470-ea110953c0d4?q=80&w=2070',
+      image: fotoPremium, // 2. Gunakan variabel import di sini
       features: ['Kasur Springbed Queen', 'Lemari & Meja Belajar', 'AC', 'Kamar Mandi Dalam', 'Free WiFi'],
-      isPopular: true // Highlight card ini
+      isPopular: true
     },
     {
       id: 3,
